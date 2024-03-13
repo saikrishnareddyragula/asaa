@@ -1,7 +1,4 @@
 spring:
-  config:
-    activate:
-      on-profile:
   datasource:
     password: root
     url: jdbc:postgresql://localhost:5432/customers
@@ -10,3 +7,4 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
+
